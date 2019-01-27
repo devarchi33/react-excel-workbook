@@ -18,7 +18,7 @@ const data1 = [
     bar: 'bbb',
     baz: 'ccc'
   }
-]
+];
 
 const data2 = [
   {
@@ -31,7 +31,7 @@ const data2 = [
     bbb: 5,
     ccc: 6
   }
-]
+];
 
 const example = (
   <div className="row" style={{marginTop: '100px'}}>
@@ -48,6 +48,6 @@ const example = (
       </Workbook>
     </div>
   </div>
-)
+);
 
-render(example, document.getElementById('app'))
+render(example, document.getElementById('app'));
